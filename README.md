@@ -10,11 +10,11 @@ docker http2
   - by default it will expose port 80
   - you can change the port using EXPOSE inside Dockerfile
 
-``
-`FROM httpd:2.4
+```docker
+FROM httpd:2.4
  
 COPY ./index.html/ /usr/local/apache2/htdocs/
-``
+```
 
 # To build
 
